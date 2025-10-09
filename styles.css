@@ -26,10 +26,13 @@ Fonts:
 /* Set up the main font and background color for the whole page */
 body {
   background-color: #f4f8fb; /* Soft light blue for a fresh look */
-  font-family: 'Avenir', 'Proxima Nova', Arial, sans-serif;
+  font-family: 'Avenir', Arial, sans-serif; /* Use Avenir for body text */
   margin: 0;
   padding: 0;
   color: #222;
+/* Use Proxima Nova for all headers */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Proxima Nova', Arial, sans-serif;
 }
 
 /* Add a slight shadow and rounded corners to each section for depth */
@@ -67,6 +70,8 @@ section {
   letter-spacing: 1px;
   margin-bottom: 15px;
   text-shadow: 0 2px 8px rgba(0,0,0,0.15); /* Soft shadow for readability */
+  font-family: 'Proxima Nova', Arial, sans-serif;
+}
 }
 
 /* Style the subheadline */
@@ -89,6 +94,7 @@ h2 {
   color: #2E9DF7; /* Primary blue */
   margin-top: 0;
   font-weight: bold;
+  font-family: 'Proxima Nova', Arial, sans-serif;
 }
 
 /* Call-to-Action Section Styles */
